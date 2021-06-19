@@ -46,7 +46,7 @@ int factors(int n, int ret[])
   {
     for( int i=2;i<=n;i++)
     {
-        if(isprime(i))
+        if(isprime(i)) 
         {
             while (n%i==0)
             { n=n/i;
